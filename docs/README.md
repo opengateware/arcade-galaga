@@ -68,7 +68,7 @@ The Boss Galaga has a tractor beam that can capture the player's Fighter. A capt
 ### ROM Instructions
 
 1. Download [ORCA](https://github.com/opengateware/tools-orca/releases/latest) (Open ROM Conversion Assistant)
-2. Download the [ROM Recipes](https://github.com/opengateware/arcade-galaga/releases/download/0.1.0/rom-recipes_0.1.0.zip) and extract to your computer.
+2. Download the [ROM Recipes](https://github.com/opengateware/arcade-galaga/releases/download/v0.1.0/rom-recipes_0.1.0.zip) and extract to your computer.
 3. Copy the required MAME `.zip` files into the `roms` folder.
 4. Inside the `tools` execute the script related to your system.
    1. **Windows:** right click `make_roms.ps1` and select `Run with Powershell`
