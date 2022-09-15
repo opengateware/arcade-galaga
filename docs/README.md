@@ -1,14 +1,11 @@
-<picture>
-    <source src="galaga-logo.png" srcset="galaga-logo.png">
-    <img src="galaga-logo.png" alt="Galaga Logo">
-</picture>
+[![Galaga Logo](galaga-logo.png)](#)
 
 ---
 
-[![release](https://img.shields.io/github/release/opengateware/gateman.svg)](https://github.com/opengateware/gateman/releases)
-[![license](https://img.shields.io/github/license/opengateware/gateman.svg?label=License&color=yellow)](#legal-notices)
-[![issues](https://img.shields.io/github/issues/opengateware/gateman.svg?label=Issues&color=red)](https://github.com/opengateware/gateman/issues)
-[![stars](https://img.shields.io/github/stars/opengateware/gateman.svg?label=Project%20Stars)](https://github.com/opengateware/gateman/stargazers)
+[![release](https://img.shields.io/github/release/opengateware/arcade-galaga.svg)](https://github.com/opengateware/arcade-galaga/releases)
+[![license](https://img.shields.io/github/license/opengateware/arcade-galaga.svg?label=License&color=yellow)](#legal-notices)
+[![issues](https://img.shields.io/github/issues/opengateware/arcade-galaga.svg?label=Issues&color=red)](https://github.com/opengateware/arcade-galaga/issues)
+[![stars](https://img.shields.io/github/stars/opengateware/arcade-galaga.svg?label=Project%20Stars)](https://github.com/opengateware/arcade-galaga/stargazers)
 [![discord](https://img.shields.io/discord/676418475635507210.svg?logo=discord&logoColor=white&label=Discord&color=5865F2)](https://chat.raetro.org)
 [![Twitter Follow](https://img.shields.io/twitter/follow/marcusjordan?style=social)](https://twitter.com/marcusjordan)
 
