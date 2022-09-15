@@ -1,0 +1,26 @@
+{
+    "data": {
+        "magic": "APF_VER_1",
+        "data_slots": [
+            {
+                "name": "Load Game Definition File",
+                "id": 0,
+                "required": true,
+                "parameters": "0x12",
+                "extensions": [
+                    "json"
+                ]
+            },
+            {
+                "name": "ROM",
+                "id": 1,
+                "required": true,
+                "parameters": 0,
+                "extensions": [
+                    "rom"
+                ],
+                "address": "0x00000000"
+            }
+        ]
+    }
+}

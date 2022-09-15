@@ -1,0 +1,30 @@
+<misterromdescription>
+    <setname>galagaef</setname>
+    <rom index="0" md5="d1c09b9742548ffdb306a842db022f16" zip="/hbmame/galaga.zip|namco51.zip|namco54.zip">
+        <!-- main cpu -->
+        <part crc="3ef0b053" name="galagads/3200a.bin" />
+        <part crc="1b280831" name="galagads/3300b.bin" />
+        <part crc="16233d33" name="galagads/3400c.bin" />
+        <part crc="0aaf5c23" name="galagads/3500d.bin" />
+        <!-- cpu 2 -->
+        <part crc="bc556e76" name="galagaef/3600e.bin" />
+        <!-- cpu 3 -->
+        <part crc="b07f0aa4" name="galagads/3700g.bin" />
+        <!-- gfx2 -->
+        <part crc="1b629f80" name="galagaef/terror.bin" />
+        <part crc="dd6f1afc" name="gg1_10.4f" />
+        <!-- gfx1 -->
+        <part crc="58b2f47c" name="gg1_9.4l" />
+        <part crc="58b2f47c" name="gg1_9.4l" />
+        <!-- namco mcus -->
+        <part crc="c2f57ef8" name="51xx.bin" />
+        <part crc="ee7357e0" name="54xx.bin" />
+    </rom>
+    <rom index="1" />
+    <rom index="2" />
+    <rom index="3" md5="none">
+        <part>11 00 00 00 00 FF 00 02 00 02 00 01 00 FF 02 00 00 00 8A 20 00 2D 00 18 00 00 83 ED 00 06 00 24</part>
+    </rom>
+    <rom index="4" />
+    <nvram index="4" size="51" />
+</misterromdescription>

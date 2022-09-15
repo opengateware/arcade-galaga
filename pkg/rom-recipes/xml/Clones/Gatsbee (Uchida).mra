@@ -1,0 +1,29 @@
+<misterromdescription>
+    <setname>gatsbee</setname>
+    <rom index="0" md5="9d301ad0f2ac3803b6473cbec81638f3" type="merged" zip="galaga.zip|namco51.zip|namco54.zip">
+        <!-- main cpu -->
+        <part crc="9fb8e28b" name="1.4b" />
+        <part crc="bf6cb840" name="2.4c" />
+        <part crc="3604e2dd" name="3.4d" />
+        <part crc="bf9f613b" name="4.4e" />
+        <!-- cpu 2 -->
+        <part crc="3102fccd" name="gg1-5.3f" />
+        <!-- cpu 3 -->
+        <part crc="8995088d" name="gg1-7.2c" />
+        <!-- gfx2 -->
+        <part crc="22e339d5" name="9.6a" />
+        <part crc="60dcf940" name="10.7a" />
+        <!-- gfx1 -->
+        <part crc="b324f650" name="8.5r" />
+        <!-- namco mcus -->
+        <part crc="c2f57ef8" name="51xx.bin" />
+        <part crc="ee7357e0" name="54xx.bin" />
+    </rom>
+    <rom index="1" />
+    <rom index="2" />
+    <rom index="3" md5="none">
+        <part>11 00 00 00 00 FF 00 02 00 02 00 01 00 FF 02 00 00 00 8A 20 00 2D 00 18 00 00 83 ED 00 06 00 24</part>
+    </rom>
+    <rom index="4" />
+    <nvram index="4" size="51" />
+</misterromdescription>

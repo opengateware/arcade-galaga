@@ -1,0 +1,38 @@
+{
+    "name": "galaga",
+    "displayName": "galaga",
+    "description": "Galaga Compatible Gateware IP Core",
+    "author": "boogermann",
+    "version": "0.1.0",
+    "license": "GPL-3.0-or-later",
+    "repository": "https://github.com/raetro/gateware-galaga",
+    "keywords": [
+        "namco",
+        "galaga",
+        "gatsbee",
+        "shooter",
+        "vertical",
+        "arcade",
+        "1981",
+        "ecosystem:gateman"
+    ],
+    "scripts": {
+        "verilator": "echo \"Error: no simulation specified\" && exit 1"
+    },
+    "hardware": {
+        "id": "galaga",
+        "name": "Galaga",
+        "year": 1981,
+        "manufacturer": "Namco"
+    },
+    "platforms": {
+        "pocket": "1.0.0"
+    },
+    "modules": {
+        "dataloader-pocket": "1.0.0",
+        "generic-dpram": "1.0.0",
+        "generic-pause": "0.2.0",
+        "mb88xx": "0.3.0",
+        "t80": "3.5.1"
+    }
+}

@@ -1,0 +1,82 @@
+#####################################################################
+# SPDX-License-Identifier: CC0-1.0
+# SPDX-FileType: OTHER
+# SPDX-FileCopyrightText: (c) 2022, OpenGateware authors and contributors
+#####################################################################
+name: "Bug Report"
+description: "Let us know about an unexpected error, a crash, or an incorrect behavior."
+title: 'Title of your Bug Report'
+labels:
+  - bug
+assignees:
+  - boogermann
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Hi there,
+
+        Thank you for opening an issue. Please note that we try to keep the issue tracker reserved for bug reports.
+        Make sure to [search for existing issues](https://github.com/opengateware/arcade-galaga/issues?q=label%3Abug) before filing a new one!
+
+  - type: input
+    id: version
+    attributes:
+      label: Version (or build number)
+      placeholder: "1.0.0"
+      description: |
+        You can find the version in the about dialog.
+
+        If you are not running the latest version, please try upgrading because your issue may have already been fixed.
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: |
+        Please list the full steps required to reproduce the issue
+      placeholder: |
+        - Be precise
+        - Include exact data used during testing for easy reference
+        - The steps have to be in the exact order
+        - Mention pre-requisites when applicable
+    validations:
+      required: false
+
+  - type: textarea
+    id: expected_behavior
+    attributes:
+      label: Expected Behavior
+      description: If you want to include screenshots, paste them into the markdown editor below or follow up with a separate comment.
+      placeholder: What were you expecting?
+    validations:
+      required: false
+
+  - type: textarea
+    id: actual_behavior
+    attributes:
+      label: Actual Behavior
+      placeholder: What happened instead?
+    validations:
+      required: true
+
+  - type: textarea
+    id: bug_context
+    attributes:
+      label: Additional Context
+      description: |
+        Are there anything atypical about your situation that we should know?
+    validations:
+      required: false
+
+  - type: input
+    id: bug_firmware
+    attributes:
+      label: Opened Issues and Pull Requests
+      placeholder: "#1234"
+      description: |
+        Are there any other GitHub issues (open or closed) or Pull Requests that should be linked here? For example: #1234
+    validations:
+      required: false

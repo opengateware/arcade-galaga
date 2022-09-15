@@ -1,0 +1,52 @@
+{
+    "input": {
+        "magic": "APF_VER_1",
+        "controllers": [
+            {
+                "type": "default",
+                "mappings": [
+                    {
+                        "id": 0,
+                        "name": "Coin",
+                        "key": "pad_btn_select"
+                    },
+                    {
+                        "id": 1,
+                        "name": "Start Player 1",
+                        "key": "pad_btn_start"
+                    },
+                    {
+                        "id": 2,
+                        "name": "Start Player 2",
+                        "key": "pad_trig_l"
+                    },
+                    {
+                        "id": 3,
+                        "name": "Fire",
+                        "key": "pad_btn_a"
+                    },
+                    {
+                        "id": 4,
+                        "name": "Fire",
+                        "key": "pad_btn_b"
+                    },
+                    {
+                        "id": 5,
+                        "name": "Fire",
+                        "key": "pad_btn_x"
+                    },
+                    {
+                        "id": 6,
+                        "name": "Fire",
+                        "key": "pad_btn_y"
+                    },
+                    {
+                        "id": 7,
+                        "name": "Pause",
+                        "key": "pad_trig_r"
+                    }
+                ]
+            }
+        ]
+    }
+}

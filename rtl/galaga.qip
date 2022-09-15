@@ -1,0 +1,29 @@
+# ==============================================================================
+# RTL
+# ==============================================================================
+set_global_assignment -name VHDL_FILE [file join $::quartus(qip_path) "galaga.vhd"]
+set_global_assignment -name VHDL_FILE [file join $::quartus(qip_path) "gen_ram.vhd"]
+set_global_assignment -name VHDL_FILE [file join $::quartus(qip_path) "gen_video.vhd"]
+set_global_assignment -name VHDL_FILE [file join $::quartus(qip_path) "sound_lpf.vhd"]
+set_global_assignment -name VHDL_FILE [file join $::quartus(qip_path) "sound_machine.vhd"]
+set_global_assignment -name VHDL_FILE [file join $::quartus(qip_path) "stars_machine.vhd"]
+set_global_assignment -name VHDL_FILE [file join $::quartus(qip_path) "stars.vhd"]
+
+# ==============================================================================
+# PROM
+# ==============================================================================
+set_global_assignment -name VHDL_FILE [file join $::quartus(qip_path) "prom/bg_palette.vhd"]
+set_global_assignment -name VHDL_FILE [file join $::quartus(qip_path) "prom/rgb.vhd"]
+set_global_assignment -name VHDL_FILE [file join $::quartus(qip_path) "prom/sound_samples.vhd"]
+set_global_assignment -name VHDL_FILE [file join $::quartus(qip_path) "prom/sound_seq.vhd"]
+set_global_assignment -name VHDL_FILE [file join $::quartus(qip_path) "prom/sp_palette.vhd"]
+
+# ==============================================================================
+# MODULES
+# ==============================================================================
+set_global_assignment -name QIP_FILE [file join $::quartus(qip_path) "../modules/T80/T80.qip"]
+set_global_assignment -name QIP_FILE [file join $::quartus(qip_path) "../modules/mb88xx/mb88xx.qip"]
+set_global_assignment -name QIP_FILE [file join $::quartus(qip_path) "../modules/dataloader-pocket/data_loader.qip"]
+set_global_assignment -name QIP_FILE [file join $::quartus(qip_path) "../modules/altera-dpram/dpram.qip"]
+set_global_assignment -name QIP_FILE [file join $::quartus(qip_path) "../modules/generic-pause/pause.qip"]
+set_global_assignment -name QIP_FILE [file join $::quartus(qip_path) "../modules/generic-ram_nwr/gen_ram.qip"]

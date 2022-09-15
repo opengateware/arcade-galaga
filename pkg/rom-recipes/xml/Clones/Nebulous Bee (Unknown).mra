@@ -1,0 +1,36 @@
+<misterromdescription>
+    <setname>nebulbee</setname>
+    <rom index="0" md5="e434918416c04b00b745ac0d2d8680ff" type="merged" zip="galaga.zip|namco51.zip|namco54.zip">
+        <!-- main cpu -->
+        <part crc="f405f2c4" name="nebulbee.01" />
+        <part crc="31022b60" name="nebulbee.02" />
+        <part crc="753ce503" name="gg1_3.2m" />
+        <part crc="d76788a5" name="nebulbee.04" />
+        <!-- cpu 2 -->
+        <part crc="3102fccd" name="gg1-5" />
+        <!-- cpu 3 -->
+        <part crc="8995088d" name="gg1-7" />
+        <!-- gfx2 -->
+        <part crc="ad447c80" name="gg1_11.4d" />
+        <part crc="dd6f1afc" name="gg1_10.4f" />
+        <!-- gfx1 -->
+        <part crc="58b2f47c" name="gg1_9.4l" />
+        <!-- namco mcus -->
+        <part crc="c2f57ef8" name="51xx.bin" />
+        <part crc="ee7357e0" name="54xx.bin" />
+        <!-- proms - not used -->
+        <part crc="54603c6b" name="prom-5.5n" />
+        <part crc="a547d33b" name="2n.bin" />
+        <part crc="b6f585fb" name="1c.bin" />
+        <part crc="8bd565f6" name="5c.bin" />
+        <!-- namco proms - not used -->
+        <part crc="86d92b24" name="1d.bin" />
+    </rom>
+    <rom index="1" />
+    <rom index="2" />
+    <rom index="3" md5="none">
+        <part>11 00 00 00 00 FF 00 02 00 02 00 01 00 FF 02 00 00 00 8A 20 00 2D 00 18 00 00 83 ED 00 06 00 24</part>
+    </rom>
+    <rom index="4" />
+    <nvram index="4" size="51" />
+</misterromdescription>

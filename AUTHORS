@@ -1,0 +1,28 @@
+#####################################################################
+# SPDX-License-Identifier: CC0-1.0
+# SPDX-FileType: OTHER
+# SPDX-FileCopyrightText: (c) 2022, OpenGateware authors and contributors
+#####################################################################
+# Names should be added to this file as:
+# Name or Organization <email address>
+#
+# Core Team Members
+# Current project authors, maintainers and contributors.
+#####################################################################
+Marcus Andrade <marcus@raetro.org>
+
+#####################################################################
+# Partial list of people who authored and/or contributed code in
+# other iterations or versions of the project.
+#
+# Thanks to all for their valuable
+# time/code/hints/fixes/discussions and contributions.
+#####################################################################
+Alan Steremberg <alan.steremberg@gmail.com>
+Alexey Melnikov <pour.garbage@gmail.com>
+Dar <darfpga@aol.fr>
+Jim Gregory <jim.a.gregory@gmail.com>
+John Scarfone <github@scarfone.net>
+Kuba Winnicki <git@blk.wine>
+MiSTer-X <MrX-8B@users.noreply.github.com>
+Peter Wendrich <pwsoft@syntiac.com>
